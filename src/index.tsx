@@ -342,7 +342,7 @@
     }}/>, 
 
           (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[`{ disabled: true }`],
+            elementsProperties:[`{ disabled: false, onHoverIn: () => console.log("hover") }`],
 
             styles:[
               {
