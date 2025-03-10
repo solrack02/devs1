@@ -342,8 +342,7 @@
     }}/>, 
 
           (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[`{ onHoverIn: "$var_
-all.func1" }`],
+            elementsProperties:[`{ onHoverIn: "$var_all.func1" }`],
 
             styles:[
               {
