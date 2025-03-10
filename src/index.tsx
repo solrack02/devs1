@@ -342,7 +342,7 @@
     }}/>, 
 
           (...args:any) => <Elements.DynView pass={{
-            elementsProperties:['{}'],
+            elementsProperties:[`{ disabled: true }`],
 
             styles:[
               {
